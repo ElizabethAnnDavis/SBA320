@@ -11,37 +11,37 @@
 
 ### Requirements:
 *  -   %  --> React Application (built with vite)
-   
+*    
 *  -   %  --> Get data from a 3rd party api
-    
+*    
 *  -   %  --> Display data from the api on the screen (DOM)
-    
+*    
 *  -   %  --> Use `useState` hook
-   
+*    
 *  -   %  --> Use `useReducer` hook
-   
+*    
 *  -   %  --> Use `useEffect` hook
-   
+*    
 *  -   %  --> Access the `react-router-dom` routing library to use `useRoutes` hook
-    
+*    
 *  -   %  --> Commit frequently to the git repository. At least ~15
-   
+*    
 *  -   %  --> Include a README file that contains a description of your application. README should include: 
             - Explanations of the technologies used. 
             - Explanations of the approach taken. 
             - Usage instructions, if relevant. 
             - Unsolved problems. 
             - List sources.
-    
+*    
 *  -  ?%  --> Utilize reasonable data structuring practices.
-   
+*    
 *  -  ?%  --> Utilize reasonable code organization practices.
-    
+*    
 *  -  ?%  --> Ensure that the program runs without errors 
-            - (comment out things that do not work, and explain your blockers - you can still receive partial credit).
-    
+            - comment out things that do not work, and explain your blockers - you can still receive partial credit.
+*    
 *  -  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
 ##### Bonus Objectives:
 *  - +?%  --> Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc.
-    
+*    
 *  - +?%  --> Look into localstorage so you can save data to the user's browser.
