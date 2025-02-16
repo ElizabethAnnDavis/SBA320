@@ -1,6 +1,6 @@
-# React + Vite - SBA 320: React Web Application Project ✔
+# SBA 320: React Web Application Project ✔
 
-A practical web application built with React
+A practical web application built with React using the NASA api.
 
 ## Features
 
