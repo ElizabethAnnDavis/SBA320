@@ -1,5 +1,22 @@
 # React + Vite - SBA 320: React Web Application Project ✔
 
+A practical web application built with React
+
+## Features
+
+- **TBA:** tbd
+- **TBA:** tbd
+- **TBA:** tbd
+- **TBA:** tbd
+
+
+## Files
+
+- **App.jsx:** tbd
+- **App.css:** tbd
+- **TBA:** tbd
+
+
 
 ### Objectives:
 *  -  The content, context, and objective of your application is entirely up to you. Be creative, and think of something that will both allow you to demonstrate the skills you've acquired thus far and solve a need (practical or fictional).
@@ -38,10 +55,10 @@
 *  -  ?%  --> Utilize reasonable code organization practices.
 *    
 *  -  ?%  --> Ensure that the program runs without errors 
-*             (comment out things that do not work, and explain your blockers - you can still receive partial credit).
+        - Comment out things that do not work, and explain your blockers - you can still receive partial credit.
 *    
 *  -  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
 ##### Bonus Objectives:
 *  - +?%  --> Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc.
 *    
-*  - +?%  --> Look into localstorage so you can save data to the user's browser.
+*  - +?%  --> Look into `localstorage` so you can save data to the user's browser.
