@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+body{
+  background-color: rgb(10, 7, 26);
+  background-image: url('https://images.stockcake.com/public/2/f/5/2f520fee-287b-4ba7-b162-fa10d2532c20_large/moonlit-starry-night-stockcake.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

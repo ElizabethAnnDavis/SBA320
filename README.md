@@ -14,7 +14,18 @@ A practical web application built with React using the NASA api.
 
 - **App.jsx:** tbd
 - **App.css:** tbd
-- **TBA:** tbd
+- **components:** Image, Nav
+- **Image.jsx:** tbd
+- **Image.css:** tbd
+- **Nav.jsx:** tbd
+- **Nav.css:** tbd
+- **data:** data.jsx
+- **data.js:** calls getAPIData funtion to create an array of objects
+- **pages:** DetailsPage, MainPage
+- **DetailsPage.jsx:** tbd
+- **MainPage.jsx:** tbd
+- **utilities:** getAPIData
+- **getAPIData.js:** contains a async function of the same name that makes a fetch request for 10 objects from the [NASA API](https://api.nasa.gov/)
 
 
 ## Specifications
@@ -39,7 +50,7 @@ A practical web application built with React using the NASA api.
 *    
 *  -   %  --> Use `useEffect` hook
 *    
-*  -   %  --> Access the `react-router-dom` routing library to use `useRoutes` hook
+*  -   %  --> Access the `react-router-dom` routing library to use hooks like `useRoutes` and `useParams`
 *    
 *  -   %  --> Commit frequently to the git repository. At least ~15
 *    
