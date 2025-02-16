@@ -26,7 +26,8 @@
 *    
 *  -   %  --> Commit frequently to the git repository. At least ~15
 *    
-*  -   %  --> Include a README file that contains a description of your application. README should include: - Explanations of the technologies used. - Explanations of the approach taken. - Usage instructions, if relevant. - Unsolved problems. - List sources.
+*  -   %  --> Include a README file that contains a description of your application. README should include: 
+*       - Explanations of the technologies used. - Explanations of the approach taken. - Usage instructions, if relevant. - Unsolved problems. - List sources.
 *    
 *  -  ?%  --> Utilize reasonable data structuring practices.
 *    
