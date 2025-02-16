@@ -14,18 +14,27 @@ A practical web application built with React using the NASA api.
 
 - **App.jsx:** tbd
 - **App.css:** tbd
-- **components:** Image, Nav
+- **components:** Caption, ComponentContainer, Image, ImageContainer, Nav, Title
+- **Caption.jsx:** tbd
+- **Caption.css:** tbd
+- **ComponentContainer.jsx:** tbd
+- **ComponentContainer.css:** tbd
 - **Image.jsx:** tbd
 - **Image.css:** tbd
+- **ImageContainer.jsx:** holds a previous button, Image, and a next button together in a group
+- **ImageContainer.css:** uses display flex on the item in the container and does some css on the buttons, including button hover effects
 - **Nav.jsx:** tbd
 - **Nav.css:** tbd
+- **Title.jsx:** tbd
+- **Title.css:** tbd
 - **data:** data.jsx
-- **data.js:** calls getAPIData funtion to create an array of objects
+- **apiData.js:** calls getAPIData funtion to create an array of objects
 - **pages:** DetailsPage, MainPage
 - **DetailsPage.jsx:** tbd
 - **MainPage.jsx:** tbd
-- **utilities:** getAPIData
-- **getAPIData.js:** contains a async function of the same name that makes a fetch request for 10 objects from the [NASA API](https://api.nasa.gov/)
+- **utilities:** getAPIData, reducer
+- **getAPIData.js:** contains a async function of the same name that makes a fetch request for data from the [NASA API](https://api.nasa.gov/)
+- **reducer.mjs** tbd
 
 
 ## Specifications

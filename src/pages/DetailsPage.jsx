@@ -1,3 +1,5 @@
+import ComponentContainer from "../components/ComponentContainer/ComponentContainer";
+
 export default function DetailsPage(){
-    return <h1>DETAILS PAGE</h1>
+    return <ComponentContainer />
 }

@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    margin: 0px 50px;
+    font-size: 18px;
+    color: grey;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: grey;
+    color: lightgrey;
+}
