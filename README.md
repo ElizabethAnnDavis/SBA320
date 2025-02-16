@@ -17,7 +17,7 @@ A practical web application built with React
 - **TBA:** tbd
 
 
-
+## Specifications
 ### Objectives:
 *  -  The content, context, and objective of your application is entirely up to you. Be creative, and think of something that will both allow you to demonstrate the skills you've acquired thus far and solve a need (practical or fictional).
 *  -  Once you have an idea for your project, keeping the below requirements and resources in mind, speak to your instructor to have your project approved before you begin. This will ensure you're on the right track from the start, and not running into unforseen issues or wasting time on something that will not satisfy the assignment's objectives.
