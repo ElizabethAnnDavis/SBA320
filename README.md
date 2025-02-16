@@ -27,18 +27,18 @@
 *  -   %  --> Commit frequently to the git repository. At least ~15
 *    
 *  -   %  --> Include a README file that contains a description of your application. README should include: 
-            - Explanations of the technologies used. 
-            - Explanations of the approach taken. 
-            - Usage instructions, if relevant. 
-            - Unsolved problems. 
-            - List sources.
+        - Explanations of the technologies used. 
+        - Explanations of the approach taken. 
+        - Usage instructions, if relevant. 
+        - Unsolved problems. 
+        - List sources.
 *    
 *  -  ?%  --> Utilize reasonable data structuring practices.
 *    
 *  -  ?%  --> Utilize reasonable code organization practices.
 *    
 *  -  ?%  --> Ensure that the program runs without errors 
-            - comment out things that do not work, and explain your blockers - you can still receive partial credit.
+*             (comment out things that do not work, and explain your blockers - you can still receive partial credit).
 *    
 *  -  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
 ##### Bonus Objectives:
