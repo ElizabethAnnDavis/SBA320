@@ -6,21 +6,11 @@ import apiData from '../../data/apiData';
 
 export default function ImageContainer({ url, index, setIndex }){
 
-    function handlePrevious(){
-        console.log('Previous index:', index);
-        setIndex((prevIndex) => (prevIndex - 1 + apiData.length) % apiData.length);
-    }
-
-    function handleNext(){
-        console.log('Previous index:', index);
-        setIndex((prevIndex) => (prevIndex + 1) % apiData.length);
-    }
-
     return(
         <div className="container">
-            <button onClick={handlePrevious}>PREVIOUS</button>
+            <button onClick={() => setIndex((prevIndex) => (prevIndex - 1 + apiData.length) % apiData.length)}>PREVIOUS</button>
             <Image url={url}/>
-            <button onClick={handleNext}>NEXT</button>
+            <button onClick={() => setIndex((prevIndex) => (prevIndex + 1) % apiData.length)}>NEXT</button>
         </div>
     );
 }

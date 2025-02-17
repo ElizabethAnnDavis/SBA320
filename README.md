@@ -12,19 +12,18 @@ A practical web application built with React using the NASA api.
 
 ## Files
 
-- **App.jsx:** tbd
-- **App.css:** tbd
+- **App.jsx:** sets a global state of index using `useState` and uses `react-router-dom` to use `Route` and `Routes`
+- **App.css:** sets a background image for the web app
 
 - **components:** Caption, ComponentContainer, Image, ImageContainer, Nav, Title
 - **Caption.jsx:** receives a caption as a prop and returns the caption as an p element to display
 - **Caption.css:** styles the caption
 - **ComponentContainer.jsx:** holds the image title, image container, and image caption in a group
-- **ComponentContainer.css:** tbd
 - **Image.jsx:** accepts a url as a prop and returns a img tag
 - **Image.css:** sets the size of the images to be more uniform
 - **ImageContainer.jsx:** holds a previous button, Image, and a next button together in a group
 - **ImageContainer.css:** uses display flex on the item in the container and does some css on the buttons, including button hover effects
-- **Nav.jsx:** navbar containing links to main page, details page, and a dropdown list of image titles
+- **Nav.jsx:** navbar containing links to main page, details page, and a dropdown list that accesses `react-router-dom` to use `Link` to create a clikcable list of image titles
 - **Nav.css:** sets the navbar's opacity and pins it to the top of the display and styles the nav items like the dropdown menu
 - **Title.jsx:** receives a title as a prop and returns the title as an h1 element to display
 - **Title.css:** styles the title
@@ -33,12 +32,11 @@ A practical web application built with React using the NASA api.
 - **apiData.js:** calls getAPIData funtion to create an array of objects
 
 - **pages:** DetailsPage, MainPage
-- **DetailsPage.jsx:** tbd
-- **MainPage.jsx:** tbd
+- **DetailsPage.jsx:** accesses `react-router-dom` to use `useParams` to display a selected image and uses `useEffect` to update the index state whenever there is a change
+- **MainPage.jsx:** creates a continuous carousel of images in the apiData array using `useEffect` with each picture being a clickable item which accesses `react-router-dom` to use `useNavigate` to redirect to the DetailsPage
 
-- **utilities:** getAPIData, reducer
-- **getAPIData.js:** contains a async function of the same name that makes a fetch request for data from the [NASA API](https://api.nasa.gov/)
-- **reducer.mjs** tbd
+- **utilities:** getAPIData
+- **getAPIData.js:** contains a async function of the same name that makes a `fetch` request for data from the [NASA API](https://api.nasa.gov/)
 
 
 ## Specifications
@@ -57,9 +55,7 @@ A practical web application built with React using the NASA api.
 *    
 *  ✔   %  --> Display data from the api on the screen (DOM)
 *    
-*  ✔   %  --> Use `useState` hook
-*    
-*  -   %  --> Use `useReducer` hook
+*  ✔   %  --> Use `useState` hook or `useReducer` hook
 *    
 *  ✔   %  --> Use `useEffect` hook
 *    
@@ -74,15 +70,15 @@ A practical web application built with React using the NASA api.
         - Unsolved problems. 
         - List sources.
 *    
-*  -  ?%  --> Utilize reasonable data structuring practices.
+*  ✔  ?%  --> Utilize reasonable data structuring practices.
 *    
-*  -  ?%  --> Utilize reasonable code organization practices.
+*  ✔  ?%  --> Utilize reasonable code organization practices.
 *    
-*  -  ?%  --> Ensure that the program runs without errors 
+*  ✔  ?%  --> Ensure that the program runs without errors 
         - Comment out things that do not work, and explain your blockers - you can still receive partial credit.
 *    
-*  -  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
+*  ✔  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
 ##### Bonus Objectives:
-*  ✔ +?%  --> Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc.
+*  ✔ +?%  --> Have one or more complex user interface modules such as a carousel✔, drag and drop, a sticky nav✔, tooltips, etc.
 *    
 *  - +?%  --> Look into `localstorage` so you can save data to the user's browser.

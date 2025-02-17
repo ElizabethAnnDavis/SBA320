@@ -3,7 +3,6 @@ try{
         const apiKey = import.meta.env.VITE_API_KEY;
         const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=21`);
         const data = await response.json();
-        console.log(data[0].explanation);
         return data;
     }catch(e){
         console.log(`ERROR: ${e.message}`);

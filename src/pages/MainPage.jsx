@@ -12,9 +12,8 @@ export default function MainPage({ index, setIndex }){
         return () => clearInterval(interval);
     }, [])
 
-    console.log("Current index in MainPage: ", index);
-
+    const image = apiData[index];
     return (
-        <Image url={apiData[index].url} title={apiData[index].title} onClick={() => navigate(`/details/${apiData[index]}`)} />
+        <Image url={image.url} title={image.title} onClick={() => navigate(`/details/${image.title}`)} />
     );
 }
