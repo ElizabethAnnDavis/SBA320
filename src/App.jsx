@@ -13,8 +13,7 @@ export default function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<MainPage index={index} setIndex={setIndex} />} />
-        {/* <Route path="/details" element={<DetailsPage />} /> */}
-        <Route path="/details/:title" element={<DetailsPage />} />
+        <Route path="/details/:title" element={<DetailsPage index={index} setIndex={setIndex}/>} />
       </Routes>
     </div>
   );
