@@ -19,8 +19,8 @@ A practical web application built with React using the NASA api.
 - **Caption.css:** tbd
 - **ComponentContainer.jsx:** tbd
 - **ComponentContainer.css:** tbd
-- **Image.jsx:** tbd
-- **Image.css:** tbd
+- **Image.jsx:** accepts a url as a prop and returns a img tag
+- **Image.css:** sets the size of the images to be more uniform
 - **ImageContainer.jsx:** holds a previous button, Image, and a next button together in a group
 - **ImageContainer.css:** uses display flex on the item in the container and does some css on the buttons, including button hover effects
 - **Nav.jsx:** tbd

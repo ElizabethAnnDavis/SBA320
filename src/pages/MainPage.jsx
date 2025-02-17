@@ -1,29 +1,19 @@
 import { useEffect, useState } from 'react';
 import apiData from '../data/apiData';
-import getAPIData from '../utilities/getAPIData';
+import Image from '../components/Image/Image';
 
-export default function MainPage(){
-    const [data, setData] = useState([]);
+export default function MainPage({ index, setIndex }){
+    function nextImg(){
+        // Loop to 1st img
+        setIndex((prevIndex) => (prevIndex + 1) % apiData.length);
+    }
 
-    console.log('On Main Page', apiData[0].url);
-
-    // useEffect(() => {
-    //     async function getAPIData(){
-    //         try{
-    //             const apiKey = import.meta.env.VITE_API_KEY;
-    //             const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=10`);
-    //             const data = await response.json();
-    //             console.log(data[0].explanation);
-    //             setData(data);
-    //         }catch(e){
-    //             console.log(`ERROR: ${e.message}`);
-    //         };
-    //     }
-
-    //     getAPIData();
-    // }, [])
+    useEffect(() => {
+        // Loop thru imgs
+        const interval = setInterval(nextImg, 1000);
+    }, [])
 
     return (
-        <img src={apiData[0].url} />
+        <Image url={apiData[index].url} />
     );
 }
