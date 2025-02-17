@@ -1,11 +1,11 @@
-import Image from "../Image/Image";
+import Image from '../Image/Image';
 import './ImageContainer.css';
 
-export default function ImageContainer(){
+export default function ImageContainer({ url }){
     return(
         <div className="container">
             <button>Previous</button>
-            <Image />
+            <Image url={url}/>
             <button>Next</button>
         </div>
     );

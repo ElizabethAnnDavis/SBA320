@@ -8,16 +8,13 @@ import './App.css';
 export default function App() {
   const [index, setIndex] = useState(0);
 
-  // function nextImg() {
-  //   setIndex((prevIndex) => (prevIndex + 1) % apiData.length);
-  // }
-
   return (
     <div>
       <Nav />
       <Routes>
         <Route path="/" element={<MainPage index={index} setIndex={setIndex} />} />
-        <Route path="/details" element={<DetailsPage />} />
+        {/* <Route path="/details" element={<DetailsPage />} /> */}
+        <Route path="/details/:title" element={<DetailsPage />} />
       </Routes>
     </div>
   );

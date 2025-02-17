@@ -1,0 +1,57 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: rgb(5, 10, 15);
+    opacity: .8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: lightgrey;
+}
+
+nav a:hover {
+    color: grey;  
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.ddBtn {
+    color: grey;
+    width: 236px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.ddContent {
+    position: absolute;
+    background-color: lightgrey;
+    color: grey;
+    padding: 8px 10px;
+    font-size: 13px;
+    width:256px;
+    z-index: 1;
+}
+
+.ddContent a {
+    color: grey;
+    padding-bottom: 8px;
+    display: block; 
+}
+
+.ddContent a:hover {
+    background-color: grey;
+    color: lightgrey;
+}

@@ -1,3 +1,5 @@
-export default function Caption(){
-    return <h1>CAPTION</h1>
+import './Caption.css';
+
+export default function Caption({ caption }){
+    return <p>{caption}</p>
 }

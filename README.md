@@ -14,24 +14,28 @@ A practical web application built with React using the NASA api.
 
 - **App.jsx:** tbd
 - **App.css:** tbd
+
 - **components:** Caption, ComponentContainer, Image, ImageContainer, Nav, Title
-- **Caption.jsx:** tbd
-- **Caption.css:** tbd
-- **ComponentContainer.jsx:** tbd
+- **Caption.jsx:** receives a caption as a prop and returns the caption as an p element to display
+- **Caption.css:** styles the caption
+- **ComponentContainer.jsx:** holds the image title, image container, and image caption in a group
 - **ComponentContainer.css:** tbd
 - **Image.jsx:** accepts a url as a prop and returns a img tag
 - **Image.css:** sets the size of the images to be more uniform
 - **ImageContainer.jsx:** holds a previous button, Image, and a next button together in a group
 - **ImageContainer.css:** uses display flex on the item in the container and does some css on the buttons, including button hover effects
-- **Nav.jsx:** tbd
-- **Nav.css:** tbd
-- **Title.jsx:** tbd
-- **Title.css:** tbd
+- **Nav.jsx:** navbar containing links to main page, details page, and a dropdown list of image titles
+- **Nav.css:** sets the navbar's opacity and pins it to the top of the display and styles the nav items like the dropdown menu
+- **Title.jsx:** receives a title as a prop and returns the title as an h1 element to display
+- **Title.css:** styles the title
+
 - **data:** data.jsx
 - **apiData.js:** calls getAPIData funtion to create an array of objects
+
 - **pages:** DetailsPage, MainPage
 - **DetailsPage.jsx:** tbd
 - **MainPage.jsx:** tbd
+
 - **utilities:** getAPIData, reducer
 - **getAPIData.js:** contains a async function of the same name that makes a fetch request for data from the [NASA API](https://api.nasa.gov/)
 - **reducer.mjs** tbd
@@ -47,21 +51,21 @@ A practical web application built with React using the NASA api.
 *  -  Put everything you've learned to the test and apply it to a practical web application.
 
 ### Requirements:
-*  -   %  --> React Application (built with vite)
+*  ✔   %  --> React Application (built with vite)
 *    
-*  -   %  --> Get data from a 3rd party api
+*  ✔   %  --> Get data from a 3rd party api
 *    
-*  -   %  --> Display data from the api on the screen (DOM)
+*  ✔   %  --> Display data from the api on the screen (DOM)
 *    
-*  -   %  --> Use `useState` hook
+*  ✔   %  --> Use `useState` hook
 *    
 *  -   %  --> Use `useReducer` hook
 *    
-*  -   %  --> Use `useEffect` hook
+*  ✔   %  --> Use `useEffect` hook
 *    
-*  -   %  --> Access the `react-router-dom` routing library to use hooks like `useRoutes` and `useParams`
+*  ✔   %  --> Access the `react-router-dom` routing library to use hooks like `useRoutes` and `useParams`
 *    
-*  -   %  --> Commit frequently to the git repository. At least ~15
+*  ✔   %  --> Commit frequently to the git repository. At least ~15
 *    
 *  -   %  --> Include a README file that contains a description of your application. README should include: 
         - Explanations of the technologies used. 
@@ -79,6 +83,6 @@ A practical web application built with React using the NASA api.
 *    
 *  -  ?%  --> Level of effort displayed in creativity, presentation, and user experience.
 ##### Bonus Objectives:
-*  - +?%  --> Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc.
+*  ✔ +?%  --> Have one or more complex user interface modules such as a carousel, drag and drop, a sticky nav, tooltips, etc.
 *    
 *  - +?%  --> Look into `localstorage` so you can save data to the user's browser.

@@ -1,5 +1,7 @@
-import ComponentContainer from "../components/ComponentContainer/ComponentContainer";
+import { useParams } from 'react-router-dom';
+import ComponentContainer from '../components/ComponentContainer/ComponentContainer.jsx';
 
 export default function DetailsPage(){
-    return <ComponentContainer />
+    const { title } = useParams();
+    return <ComponentContainer title={title}/>
 }

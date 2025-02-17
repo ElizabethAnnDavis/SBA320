@@ -1,3 +1,5 @@
-export default function Title(){
-    return <h1>TITLE</h1>
+import './Title.css';
+
+export default function Title({ title }){
+    return <h1>{title}</h1>
 }
