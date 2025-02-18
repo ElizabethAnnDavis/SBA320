@@ -1,6 +1,6 @@
 # SBA 320: React Web Application Project ✔
 
-A practical web application built with React using the [NASA API](https://api.nasa.gov/).
+A practical web application built with React using the [NASA API](https://api.nasa.gov/). This project displays images from NASA's Astronomy Picture of the Day (APOD) API.
 
 
 ## Technologies
@@ -13,24 +13,30 @@ A practical web application built with React using the [NASA API](https://api.na
 
 ## Approach
 
-- **???**
+- **Seperation of Concerns:** Code broken apart in to many files, each containing small working pieces which are connected together to form the final product.
 
 
 ## Instructions
 
-- **???**
+- **Clone Repo:** clone [this repo](https://github.com/ElizabethAnnDavis/SBA320)
+- **Obtain API key:** get a key for the [NASA API](https://api.nasa.gov/)
+- **Store Key:** in a `.env` file, create a variable as followed: VITE_API_KEY=YOUR_KEY_HERE
+- **Necessary Installs:** run `npm install` and `npm install react-router-dom`
+- **Run Program:** run `npm run dev` to launch this web app
+
 
 ## Features
 
-- **TBA:** tbd
-- **TBA:** tbd
-- **TBA:** tbd
-- **TBA:** tbd
+- **Main Page Carousel:** The main page of this web app features a carousel of images that changes every 5 seconds. An image can be clicked to display details about it.
+- **Image Details Page:** A detailed view of the image with its title, caption, and navigational buttons to view the next/previous images.
+- **Sticky Navigation Bar:** A navbar pinned to the top of the display containing a link to the main page and a dropdown menu of the avalible image titles.
+- **Dropdown Navigation:** The dropdown menu in the navbar containing clickable image titles which, when clicked, display the details of the image selected.
+- **Persistent Image Index:** The current index is saved with `localStorage` so that it is persistant after reloads.
 
 
 ## Files
 
-- **App.jsx:** sets a global state of index using `useState` and uses `react-router-dom` to use `Route` and `Routes`
+- **App.jsx:** sets a global state of index using `useState` and uses `react-router-dom` to use `Route` and `Routes`. creates `localStorage` to store the index and uses `useEffect` to access the index that has been saved.
 - **App.css:** sets a background image for the web app
 
 - **components:** Caption, ComponentContainer, Image, ImageContainer, Nav, Title
@@ -41,7 +47,7 @@ A practical web application built with React using the [NASA API](https://api.na
 - **Image.css:** sets the size of the images to be more uniform
 - **ImageContainer.jsx:** holds a previous button, Image, and a next button together in a group
 - **ImageContainer.css:** uses display flex on the item in the container and does some css on the buttons, including button hover effects
-- **Nav.jsx:** navbar containing links to main page, details page, and a dropdown list that accesses `react-router-dom` to use `Link` to create a clikcable list of image titles
+- **Nav.jsx:** navbar containing links to main page, details page, and a dropdown list that accesses `react-router-dom` to use `Link` to create a clikcable list of image titles and uses `useState` to deterime if the dropdown menu is expanded
 - **Nav.css:** sets the navbar's opacity and pins it to the top of the display and styles the nav items like the dropdown menu
 - **Title.jsx:** receives a title as a prop and returns the title as an h1 element to display
 - **Title.css:** styles the title
@@ -54,7 +60,7 @@ A practical web application built with React using the [NASA API](https://api.na
 - **MainPage.jsx:** creates a continuous carousel of images in the apiData array using `useEffect` with each picture being a clickable item which accesses `react-router-dom` to use `useNavigate` to redirect to the DetailsPage
 
 - **utilities:** getAPIData
-- **getAPIData.js:** contains a async function of the same name that makes a `fetch` request for data from the [NASA API](https://api.nasa.gov/)
+- **getAPIData.js:** contains a async function of the same name that makes a `fetch` request for data from the [NASA API](https://api.nasa.gov/) and filters out results that do not contain a usable image.
 
 
 ## Specifications

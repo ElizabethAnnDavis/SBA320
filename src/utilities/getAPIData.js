@@ -8,14 +8,11 @@ try{
 
         for(let i = 0; i < data.length; i++){
             if (data[i].media_type !== 'video'){
-                //console.log(data[i].media_type)
                 filteredData.push(data[i]);
             }
         }
 
         return filteredData;
-        
-        //return data;
     }catch(e){
         console.log(`ERROR: ${e.message}`);
         return [];

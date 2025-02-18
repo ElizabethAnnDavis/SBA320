@@ -6,8 +6,6 @@ import Title from '../Title/Title';
 export default function ComponentContainer({ index, setIndex }){
     const image = apiData[index];
 
-    //console.log(`${index}: ${image.title}`)
-
     return image ? ( 
         <div>
             <Title title={image.title}/>
