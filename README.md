@@ -87,7 +87,7 @@ A practical web application built with React using the [NASA API](https://api.na
 *    
 *  ✔   %  --> Commit frequently to the git repository. At least ~15
 *    
-*  -   %  --> Include a README file that contains a description of your application. README should include: 
+*  ✔   %  --> Include a README file that contains a description of your application. README should include: 
         - Explanations of the technologies used. 
         - Explanations of the approach taken. 
         - Usage instructions, if relevant. 
@@ -105,4 +105,4 @@ A practical web application built with React using the [NASA API](https://api.na
 ##### Bonus Objectives:
 *  ✔ +?%  --> Have one or more complex user interface modules such as a carousel✔, drag and drop, a sticky nav✔, tooltips, etc.
 *    
-*  - +?%  --> Look into `localstorage` so you can save data to the user's browser.
+*  ✔ +?%  --> Look into `localstorage` so you can save data to the user's browser.
