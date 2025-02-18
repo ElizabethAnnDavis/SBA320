@@ -12,8 +12,13 @@ export default function MainPage({ index, setIndex }){
         return () => clearInterval(interval);
     }, [])
 
-    const image = apiData[index];
+    //console.log(apiData)
+
+    const image = apiData[index >= 0 && index < apiData.length ? index : 0];
     return (
-        <Image url={image.url} title={image.title} onClick={() => navigate(`/details/${image.title}`)} />
+        <>
+            <Image url={image.url} title={image.title} onClick={() => navigate(`/details/${image.title}`)} />
+            <h5>Page number {index}</h5>
+        </>
     );
 }

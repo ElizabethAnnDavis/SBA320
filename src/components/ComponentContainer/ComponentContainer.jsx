@@ -6,11 +6,15 @@ import Title from '../Title/Title';
 export default function ComponentContainer({ index, setIndex }){
     const image = apiData[index];
 
-    return( 
+    //console.log(`${index}: ${image.title}`)
+
+    return image ? ( 
         <div>
             <Title title={image.title}/>
             <ImageContainer url={image.url} index={index} setIndex={setIndex}/>
             <Caption caption={image.explanation}/>
         </div>
+    ) : (
+        <h1>Loading...</h1>
     );
 }

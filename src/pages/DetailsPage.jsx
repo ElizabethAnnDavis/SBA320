@@ -11,6 +11,9 @@ export default function DetailsPage({index, setIndex}){
 
     useEffect(() => {
         setIndex(imageIndex);
+        //console.log('after setIndex')
+
+        localStorage.setItem('imageIndex', imageIndex)
     }, [imageIndex, setIndex]);
 
     return <ComponentContainer title={title} index={index} setIndex={setIndex}/>;

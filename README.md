@@ -1,6 +1,24 @@
 # SBA 320: React Web Application Project ✔
 
-A practical web application built with React using the NASA api.
+A practical web application built with React using the [NASA API](https://api.nasa.gov/).
+
+
+## Technologies
+
+- **React**
+- **Vite**
+- **JavaScript**
+- **CSS**
+
+
+## Approach
+
+- **???**
+
+
+## Instructions
+
+- **???**
 
 ## Features
 
